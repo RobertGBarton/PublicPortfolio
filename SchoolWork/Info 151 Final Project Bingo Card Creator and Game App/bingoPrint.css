@@ -1,0 +1,69 @@
+@media print {
+  header {display: none !important;}
+  button {display: none !important;}
+  input {display: none !important;}
+  label {display: none !important;}
+  a {display: none !important;}
+  br {display: none !important;}
+  #bingoed {display: none !important; align-items: center;}
+  #players {display: none !important;}
+  #timer {display: none !important;}
+  #called {display: none !important;}
+  table {display: block !important;}
+
+
+
+}
+table {
+  align-items: center;
+    page-break-before: always;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-spacing: 10px !important;
+    background-color: red;
+    height: 850px;
+}
+tbody {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: auto;
+  height: 850px;
+}
+th {
+  height: 160px;
+  width: auto;
+
+}
+td {
+  height: 135px !important;
+  width : 135px !important;
+}
+caption {
+  font-family: Helvetica;
+  font-size: 40px;
+   color: white !important;
+   text-shadow: 2px 2px 4px blue !important;
+}
+body{
+
+}
+th,  td {
+ margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-family: Helvetica;
+  margin: 0 auto;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  /*height: 100%;*/
+  /*width: 160px;*/
+  text-align: center;
+  display: table-cell;
+  border: 3px solid black;
+  border-spacing: 100px;
+  align-items: center;
+}

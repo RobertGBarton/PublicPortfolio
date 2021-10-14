@@ -1,0 +1,115 @@
+
+/*
+A lot of the the formtat and code was taken from https://codepen.io/koriwade/pen/BoOqGM
+*/
+body {
+  background: #1abc9c;
+}
+#bingoed{
+  text-shadow: 1px 1px 1px black !important;
+}
+#timer{
+   text-shadow: 2px 2px 4px black !important;
+}
+#players{
+  font-family: 'Press Start 2P',monospace !important;
+   text-shadow: 2px 2px 4px lightblue !important;
+}
+#grids {
+
+  background: white;
+}
+#called {
+
+}
+a {
+  align-self: 0px;
+}
+input {
+  border:  2px solid #008CBA;
+font-size: 16px;
+padding: 7px 32px;
+border-radius: 12px;
+align-self: 200px;
+cursor: pointer;
+}
+button {
+  /*
+    background-color: #white;
+
+    color: black;
+
+    text-decoration-color: black;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+
+    margin: 4px 2px;
+    */
+      border:  2px solid #008CBA;
+    font-size: 16px;
+    padding: 7px 32px;
+      border-radius: 12px;
+    cursor: pointer;
+}
+button:disabled {
+  background: #gray;
+
+}
+.body>table {
+  margin: 0 auto;
+  text-align: center;
+  align-self: center;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  background: white;
+}
+.table {
+  margin: 0 auto;
+  text-align: center;
+  text-decoration-color: black;
+  align-self: center;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  background: white;
+}
+h1, p {
+  font-family: 'Roboto', sans-serif; font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.grid-container {
+  align-self:
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+th,  td {
+  font-family: Helvetica;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  display: table-cell;
+  border: 3px solid black;
+  width: 20%;
+}
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding:20px 0;
+  font-size: 30px;
+    width: 2px;
+}
+
+#print {
+  .align-self: center;
+}
