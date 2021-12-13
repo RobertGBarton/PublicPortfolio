@@ -1,1 +1,0 @@
-Start the program by running using, "Python3 ./main.py"
